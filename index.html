@@ -57,7 +57,11 @@
 
         <div class="home-wrapper" id="home">
             <h1 class="title">Harsh Verma</h1>
-            <h2 class="subtitle">16 year old <span>developer</span> from India</h2>
+            <h2 class="subtitle">
+                <script>
+                    const calculateAge = (unixTimestamp) => (new Date().getFullYear() - new Date(unixTimestamp * 1000).getFullYear()) - (new Date().getMonth() < new Date(unixTimestamp * 1000).getMonth() || (new Date().getMonth() === new Date(unixTimestamp * 1000).getMonth() && new Date().getDate() < new Date(unixTimestamp * 1000).getDate()) ? 1 : 0);
+                    document.write(`${calculateAge(1174003200)} year old <span>developer</span> from India`)
+                </script>
             <div class="languages-wrapper">
                 <img src="https://skillicons.dev/icons?i=golang,nodejs,python,cpp,mysql,git,blender" />
             </div>
