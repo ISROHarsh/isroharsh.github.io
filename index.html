@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="og:description" content="ISROHarsh">
+        <meta name="og:image" content="favicon.png">
+        <title>ISROHarsh</title>
+        
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <div class="preload">
+            <div class="preload__container">
+                <div class="preload__container__text">
+                    <h1>Loading...</h1>
+                    <p>Get ready for crazy shit</p>
+                    <canvas id="animation"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="lanyard-wrapper">
+                <img alt="Profile Picture" class="lanyard-profile-picture">
+                <div class="column">
+                    <a href="https://discord.gg/pj9gDrZY" class="lanyard-username-anchor">
+                        <div class="lanyard-username"></div>
+                    </a>
+                    <div class="lanyard-activity"></div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="https://github.com/ISROHarsh" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/isro_verma" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/isro_verma" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="home-wrapper" id="home">
+            <h1 class="title">Harsh Verma</h1>
+            <h2 class="subtitle">16 year old <span>developer</span> from India</h2>
+            <div class="languages-wrapper">
+                <img src="https://skillicons.dev/icons?i=golang,nodejs,python,cpp,mysql,git,blender" />
+            </div>
+        </div>
+
+        <div class="projects-wrapper" id="projects">
+            <h1 class="projects-title">Projects</h1>
+            <div class="projects"></div>
+        </div>
+
+        <div class="scroll-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="footer">
+                <div class="left-column">
+                    <span class="current-date"></span>
+                    <span class="current-time"></span>
+                </div>
+                <div class="right-column">
+                    <p class="rights">© <script>document.write(new Date().getFullYear())</script> Created By <b>Harsh Verma</b>  All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script defer src="js/cursor.js"></script>
+    <script defer src="js/lanyard.js"></script>
+    <script defer src="js/preloader.js"></script>
+    <script defer src="js/projects.js"></script>
+    <script defer src="js/scrollActions.js"></script>
+    <script defer src="js/footerTime.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/xaronnn/js-lanyard/lanyard.js"></script>
+    <script src="https://threejs.org/build/three.js"></script>
+</html> 
